@@ -318,13 +318,13 @@
           "begin": "\\b(adjustment)\\b(?!\\()(?=\\.)",
           "beginCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           },
           "end": "\\b(dividends|none|splits)\\b",
           "endCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           }
         },
@@ -332,13 +332,13 @@
           "begin": "\\b(alert)\\b(?!\\()(?=\\.)",
           "beginCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           },
           "end": "\\b(freq_all|freq_once_per_bar|freq_once_per_bar_close)\\b",
           "endCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           }
         },
@@ -346,13 +346,13 @@
           "begin": "\\b(barmerge)\\b(?!\\()(?=\\.)",
           "beginCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           },
           "end": "\\b(gaps_off|gaps_on|lookahead_off|lookahead_on)\\b",
           "endCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           }
         },
@@ -360,31 +360,31 @@
           "begin": "\\b(barstate)\\b(?!\\()(?=\\.)",
           "beginCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           },
           "end": "\\b(isconfirmed|isfirst|ishistory|islast|islastconfirmedhistory|isnew|isrealtime)\\b",
           "endCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           }
         },
         {
           "match": "\\b(box.all)\\b",
-          "name": "variable.other.pine"
+          "name": "keyword.operator.logical.pine"
         },
         {
           "begin": "\\b(chart)\\b(?!\\()(?=\\.)",
           "beginCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           },
           "end": "\\b(bg_color|fg_color)\\b",
           "endCaptures": {
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             }
           }
         },
@@ -392,10 +392,10 @@
           "match": "(color)(\\.)(aqua|black|blue|fuchsia|gray|green|lime|maroon|navy|olive|orange|purple|red|silver|teal|white|yellow)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -406,10 +406,10 @@
           "match": "(currency)(\\.)(AUD|CAD|CHF|EUR|GBP|HKD|JPY|NOK|NONE|NZD|RUB|SEK|SGD|TRY|USD|ZAR)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -420,10 +420,10 @@
           "match": "(dayofweek)(\\.)(friday|monday|saturday|sunday|thursday|tuesday|wednesday)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -434,10 +434,10 @@
           "match": "(display)(\\.)(all|none)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -448,10 +448,10 @@
           "match": "(dividends)(\\.)(gross|net)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -462,10 +462,10 @@
           "match": "(earnings)(\\.)(actual|estimate|standardized)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -476,10 +476,10 @@
           "match": "(extend)(\\.)(both|left|none|right)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -490,10 +490,10 @@
           "match": "(format)(\\.)(inherit|mintick|percent|price|volume)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -504,10 +504,10 @@
           "match": "(hline)(\\.)(style_dashed|style_dotted|style_solid)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -518,10 +518,10 @@
           "match": "(label)(\\.)(all|style_arrowdown|style_arrowup|style_circle|style_cross|style_diamond|style_flag|style_label_center|style_label_down|style_label_left|style_label_lower_left|style_label_lower_right|style_label_right|style_label_upper_left|style_label_upper_right|style_label_up|style_none|style_square|style_triangledown|style_triangleup|style_xcross)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -532,10 +532,10 @@
           "match": "(line)(\\.)(all|style_arrow_both|style_arrow_left|style_arrow_right|style_dashed|style_dotted|style_solid|style_solidline|style_dottedline|style_dashedline|style_arrow_leftline|style_arrow_rightline|style_arrow_bothline)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -546,10 +546,10 @@
           "match": "(location)(\\.)(abovebar|absolute|belowbar|bottom|top)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -560,10 +560,10 @@
           "match": "\\b(order)\\b(\\.)\\b(ascending|descending)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -574,10 +574,10 @@
           "match": "\\b(plot)\\b(\\.)\\b(style_areabr|style_area|style_circles|style_columns|style_cross|style_histogram|style_line|style_linebr|style_stepline|style_stepline_diamond)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -588,10 +588,10 @@
           "match": "\\b(position)\\b(\\.)\\b(bottom_center|bottom_left|bottom_right|middle_center|middle_left|middle_right|top_center|top_left|top_right)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -602,10 +602,10 @@
           "match": "\\b(scale)\\b(\\.)\\b(left|none|right)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -616,10 +616,10 @@
           "match": "\\b(session)\\b(\\.)\\b(extended|ismarket|ispostmarket|ispremarket|regular)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -630,10 +630,10 @@
           "match": "\\b(shape)\\b(\\.)\\b(arrowdown|arrowup|circle|cross|diamond|flag|labeldown|labelup|square|triangledown|triangleup|xcross)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -644,10 +644,10 @@
           "match": "\\b(size)\\b(\\.)\\b(auto|huge|large|normal|small|tiny)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -658,10 +658,10 @@
           "match": "\\b(splits)\\b(\\.)\\b(denominator|numerator)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -672,10 +672,10 @@
           "match": "\\b(strategy)\\b(\\.)\\b(account_currency|cash|equity|eventrades|fixed|grossloss|grossprofit|initial_capital|long|losstrades|max_contracts_held_all|max_contracts_held_long|max_contracts_held_short|max_drawdown|netprofit|openprofit|percent_of_equity|position_avg_price|position_entry_name|position_size|short|wintrades)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -686,16 +686,16 @@
           "match": "(strategy)(\\.)(commission)(\\.)(cash_per_contract|cash_per_order|percent)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
             },
             "3": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "4": {
               "name": "punctuation.separator.parameters.pine"
@@ -706,16 +706,16 @@
           "match": "(strategy)(\\.)(direction)(\\.)(all|long|short)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
             },
             "3": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "4": {
               "name": "punctuation.separator.parameters.pine"
@@ -726,16 +726,16 @@
           "match": "(strategy)(\\.)(oca)(\\.)(cancel|none|reduce)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
             },
             "3": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "4": {
               "name": "punctuation.separator.parameters.pine"
@@ -746,10 +746,10 @@
           "match": "\\b(syminfo)\\b(\\.)\\b(basecurrency|currency|description|mintick|pointvalue|prefix|root|session|ticker|tickerid|timezone|type)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -760,10 +760,10 @@
           "match": "\\b(table)\\b(\\.)\\b(all)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -774,10 +774,10 @@
           "match": "\\b(text)\\b(\\.)\\b(align_bottom|align_center|align_left|align_right|align_top)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -788,10 +788,10 @@
           "match": "\\b(timeframe)\\b(\\.)\\b(isdaily|isdwm|isintraday|isminutes|ismonthly|isseconds|isweekly|multiplier|period)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -802,10 +802,10 @@
           "match": "\\b(xloc)\\b(\\.)\\b(bar_index|bar_time)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -816,10 +816,10 @@
           "match": "\\b(yloc)\\b(\\.)\\b(abovebar|belowbar|price)\\b",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -968,10 +968,10 @@
           "match": "(ta)(\\.)(wad|tr|vwap|obv|accdist|iii|nvi|pvi|pvt|wvad)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -1124,7 +1124,7 @@
         },
         {
           "match": "\\b(abovebar|belowbar|bar_index|close|high|hl2|hlc3|low|ohlc4|open|timenow|time_tradingday|volume)\\b",
-          "name": "variable.other.pine"
+          "name": "keyword.operator.logical.pine"
         },
         {
           "match": "\\b(alert|alertcondition|barcolor|bgcolor|bool|box|color|dayofmonth|dayofweek|fill|fixnan|float|hline|hour|input|int|label|line|max_bars_back|minute|month|na|nz|plot|plotarrow|plotbar|plotcandle|plotchar|plotshape|second|string|table|time|time_close|timestamp|weekofyear|year)(?=\\()",
@@ -1183,24 +1183,24 @@
         },
         {
           "match": "\\b(strategy.opentrades)\\b",
-          "name": "variable.other.pine"
+          "name": "keyword.operator.logical.pine"
         },
         {
           "match": "\\b(strategy.closedtrades)\\b",
-          "name": "variable.other.pine"
+          "name": "keyword.operator.logical.pine"
         },
         {
           "match": "\\b(dayofmonth|dayofweek|second|hour|minute|month|na|time|time_close|weekofyear|year)\\b",
-          "name": "variable.other.pine"
+          "name": "keyword.operator.logical.pine"
         },
         {
           "match": "(math)(\\.)(e|phi|pi|rphi)",
           "captures": {
             "0": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "1": {
-              "name": "variable.other.pine"
+              "name": "keyword.operator.logical.pine"
             },
             "2": {
               "name": "punctuation.separator.parameters.pine"
@@ -1213,7 +1213,7 @@
       "patterns": [
         {
           "match": "\\b(box|by|if|in|else|elseif|line|table|continue|break|for|return|var|varip|not|while|switch|series)\\b",
-          "name": "keyword.operator.logical.pine"
+          "name": "constant.numeric.pine"
         }
       ]
     },
