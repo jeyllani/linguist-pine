@@ -1168,13 +1168,13 @@
         },
         {
           "match": "(=>)",
-          "name": "punctuation.separator.parameters.pine.non-null-typehinted.php.pine"
+          "name": "punctuation.separator.parameters.pine"
         },
         {
           "match": "(\\))\\s*(=>)\\s*",
           "captures": {
             "0": {
-              "name": "punctuation.separator.parameters.pine.non-null-typehinted.php.pine"
+              "name": "punctuation.separator.parameters.pine"
             },
             "1": {
               "name": "punctuation.separator.parameters.pine"
