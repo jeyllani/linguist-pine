@@ -272,16 +272,16 @@
           "begin": "\"",
           "beginCaptures": {
             "1": {
-              "name": "string.quoted.double.pine"
+              "name": "punctuation.section.embedded.begin.pine"
             }
           },
           "end": "\"",
           "endCaptures": {
             "1": {
-              "name": "string.quoted.double.pine"
+              "name": "punctuation.section.embedded.begin.pine"
             }
           },
-          "name": "string.quoted.double.pine",
+          "name": "punctuation.section.embedded.begin.pine",
           "patterns": [
             {
               "match": "\\\\.",
@@ -293,16 +293,16 @@
           "begin": "'",
           "beginCaptures": {
             "1": {
-              "name": "string.quoted.double.pine"
+              "name": "punctuation.section.embedded.begin.pine"
             }
           },
           "end": "'",
           "endCaptures": {
             "1": {
-              "name": "string.quoted.double.pine"
+              "name": "punctuation.section.embedded.begin.pine"
             }
           },
-          "name": "string.quoted.double.pine",
+          "name": "punctuation.section.embedded.begin.pine",
           "patterns": [
             {
               "match": "\\\\.",
