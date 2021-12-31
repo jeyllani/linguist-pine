@@ -272,16 +272,16 @@
           "begin": "\"",
           "beginCaptures": {
             "1": {
-              "name": "punctuation.definition.string.begin.pine"
+              "name": "string.pine"
             }
           },
           "end": "\"",
           "endCaptures": {
             "1": {
-              "name": "punctuation.definition.string.end.pine"
+              "name": "string.pine"
             }
           },
-          "name": "string.quoted.double.pine",
+          "name": "string.pine",
           "patterns": [
             {
               "match": "\\\\.",
@@ -293,16 +293,16 @@
           "begin": "'",
           "beginCaptures": {
             "1": {
-              "name": "punctuation.definition.string.begin.pine"
+              "name": "string.pine"
             }
           },
           "end": "'",
           "endCaptures": {
             "1": {
-              "name": "punctuation.definition.string.end.pine"
+              "name": "string.pine"
             }
           },
-          "name": "string.quoted.single.pine",
+          "name": "string.pine",
           "patterns": [
             {
               "match": "\\\\.",
