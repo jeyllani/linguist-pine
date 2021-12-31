@@ -272,16 +272,16 @@
           "begin": "\"",
           "beginCaptures": {
             "1": {
-              "name": "string.pine"
+              "name": "string.quoted.double.pine"
             }
           },
           "end": "\"",
           "endCaptures": {
             "1": {
-              "name": "string.pine"
+              "name": "string.quoted.double.pine"
             }
           },
-          "name": "string.pine",
+          "name": "string.quoted.double.pine",
           "patterns": [
             {
               "match": "\\\\.",
@@ -293,16 +293,16 @@
           "begin": "'",
           "beginCaptures": {
             "1": {
-              "name": "string.pine"
+              "name": "string.quoted.double.pine"
             }
           },
           "end": "'",
           "endCaptures": {
             "1": {
-              "name": "string.pine"
+              "name": "string.quoted.double.pine"
             }
           },
-          "name": "string.pine",
+          "name": "string.quoted.double.pine",
           "patterns": [
             {
               "match": "\\\\.",
